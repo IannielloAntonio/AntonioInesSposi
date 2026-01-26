@@ -159,7 +159,6 @@ main{
       font-family: "Italianno", cursive;
       font-size: 4rem;
       text-align: center;
-      
    
 }
 
@@ -1324,36 +1323,49 @@ qui sopraòlksmfòlakmfdòalskfdnm
       
 }
 
+@media screen and (max-width: 678px) {
+
+.carousel{
+      height: 40vh;
+}
+     
+
+}
+
+
 @media screen and (max-width: 570px){
       .centered{
-            top: 100%;
+            top: 103%;
       }
+
+      .carousel{
+      height: 30vh;
 }
-@media screen and (max-width: 530px){
-      .centered{
-            top: 96%;
-      }
 }
+
 @media screen and (max-width: 450px){
-      .centered{
-            top: 93%;
-      }
+
+      .carousel{
+      height: 30vh;
 }
-@media screen and (max-width: 400px){
-      .centered{
-            top: 94%;
-      }
 }
-@media screen and (max-width: 350px){
-      .centered{
-            top: 84%;
-      }
+
+@media screen and (max-width: 418px){
+      .carousel{
+      height: 30vh;
 }
-@media screen and (max-width: 300px){
-      .centered{
-            top: 78%;
-      }
 }
+
+
+
+@media screen and (max-width: 392px){
+      .carousel{
+      height: 20vh;
+}
+}
+
+
+
 
 
 
