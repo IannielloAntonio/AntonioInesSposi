@@ -495,6 +495,11 @@ time {
   transition: all 0.5s ease-in-out;
 }
 
+.timeline,
+.timeline-wrapper{
+      overflow-x: hidden;
+}
+
 .timeline ul li:nth-child(odd) div {
   transform: translate3d(200px, 0, 0);
 }
@@ -509,11 +514,12 @@ time {
   opacity: 1;
 }
 
+qui sopraòlksmfòlakmfdòalskfdnm
 
 
 /* EXTRA/CLIP PATH STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.timeline-clippy ul li::after {
+ .timeline-clippy ul li::after {
   width: 40px;
   height: 40px;
   border-radius: 0;
@@ -525,7 +531,7 @@ time {
 
 .timeline-rhombus ul li div::before {
   bottom: 12px;
-}
+} 
 
 .timeline-star ul li::after {
   clip-path: polygon(
@@ -540,9 +546,9 @@ time {
     2% 35%,
     39% 35%
   );
-}
+} 
 
-.timeline-heptagon ul li::after {
+ .timeline-heptagon ul li::after {
   clip-path: polygon(
     50% 0%,
     90% 20%,
@@ -552,7 +558,7 @@ time {
     0% 60%,
     10% 20%
   );
-}
+} 
 
 .timeline-infinite ul li::after {
   animation: scaleAnimation 2s infinite;
@@ -568,7 +574,7 @@ time {
   100% {
     transform: translateX(-50%) scale(1);
   }
-}
+} 
 
 
 /* CERIMONIA RICEVIMENTO*/ 
@@ -1084,16 +1090,13 @@ time {
             font-size: 4rem;
       }
 
-  .timeline ul li div {
+   .timeline ul li div {
     width: 250px;
   }
   .timeline ul li:nth-child(even) div {
     left: -289px;
-  }
+  } 
 
-  *{
-      outline: 2px solid rgba(0, 0, 0, 0);
-  }
 
   .brano{
       position: absolute;
@@ -1111,7 +1114,7 @@ time {
       left: -150%;
       transform: translateY(-50%);
 
-}
+} 
 
 .pos-destra{
       top: 50%;
