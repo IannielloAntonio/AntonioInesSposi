@@ -358,6 +358,10 @@ main{
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+body {
+  overflow-x: hidden;
+}
+
 .timeline-wrapper{
       width: 100%;
 
@@ -975,9 +979,7 @@ time {
 
 /*utility*/
 
-.padding14rem{
-      padding: 0rem 14rem;
-}
+
 
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -998,6 +1000,10 @@ time {
     
       .hero > * {
             position: relative; /* porta il contenuto sopra l'overlay */
+      }
+
+      .aprile{
+            padding-left: 1rem;
       }
 
       .sposi{
