@@ -243,6 +243,8 @@ main{
   object-fit:contain;
 }
 .carousel-button {
+      width: 2rem;
+      height: 2rem;
   position: absolute;
   background: none;
   border: none;
@@ -331,7 +333,7 @@ main{
   background: none;
   border: none;
   outline: none;
-  font-size: 4rem;
+  font-size: 1rem;
   top: 50%;
   transform: translateY(-50%);
   z-index: 2;
