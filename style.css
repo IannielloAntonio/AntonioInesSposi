@@ -379,9 +379,8 @@ body {
 .timeline-wrapper{
       width: 100%;
 
-      background-image: url(images/sfondi/blue-grungy-wall-background.jpg);
+      background-image: url(images/sfondi/Sfondo\ 2\ timeline.jpeg);
       background-repeat: repeat;
-      background-size: contain;
 
       color: var(--text-dark);
       font-weight: bold;
