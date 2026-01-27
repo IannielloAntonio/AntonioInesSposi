@@ -1007,13 +1007,14 @@ qui sopraòlksmfòlakmfdòalskfdnm
       }
 
       .aprile{
+            justify-content: center;
             padding-left: 1rem;
             font-weight: 900;
             font-size: 2rem
       }
 
       .sposi{
-            font-size: 5rem;
+            font-size: 3.8rem;
 
             color: var(--text-dark);
 
@@ -1311,7 +1312,21 @@ qui sopraòlksmfòlakmfdòalskfdnm
             flex-direction: column;
       }
 
-      
+      .aprile{
+            font-size: 1.5rem;
+            text-align: left;
+      }
+
+      .cilento{
+            font-size: 1.5rem;
+            text-align: right;
+      }     
+}
+
+@media screen and (max-width: 408px){
+      .aprile{
+            font-size: 1.3rem;
+      }
 }
 
 
