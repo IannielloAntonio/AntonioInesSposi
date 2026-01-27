@@ -143,18 +143,25 @@ main{
 /* galleria di immagini */
 
 .carousel-container{
+      padding: 20rem 0;
+      background-image: url(images/sfondi/flat-design-art-deco-background/6266619.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
 
-      gap: 10rem;
-
       width: 100%;
+
+      color: var(--text-light);
 }
 
 .carousel-text{
       
-      color: var(--text-dark);
+      
       font-family: "Italianno", cursive;
       font-size: 4rem;
       text-align: center;
@@ -164,7 +171,6 @@ main{
 .centered {
   font-size: 1.2rem;
   text-align: center;
-  color: var(--text-dark);
   font-weight: 600;
   position: absolute;
   min-width: 100%;
@@ -1061,6 +1067,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
       }
 
       .carousel-container{
+            background-image: url(images/sfondi/flat-design-art-deco-background/6266619\ -\ Copia.jpg);
             flex-direction: column;
 
             align-items: center;
