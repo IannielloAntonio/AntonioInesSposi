@@ -55,7 +55,7 @@ main{
 
       align-items: center;
       justify-content: stretch;
-      gap: 5rem;
+      gap: 2rem;
 
       color: var(--text-dark);
 }
@@ -380,7 +380,7 @@ body {
 .timeline-wrapper{
       width: 100%;
 
-      background-color: rgba(203, 147, 147, 0.6);
+      background-color: rgba(203, 147, 147, 0.85);
       color: var(--text-dark);
       font-weight: bold;
 
@@ -1024,7 +1024,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
 
             align-items: center;
             justify-content: stretch;
-            gap: 5rem;
+            gap: 2rem;
       }
 
     
