@@ -144,6 +144,7 @@ main{
 
 .carousel-container{
       padding: 20rem 0;
+
       background-image: url(images/sfondi/flat-design-art-deco-background/6266619.jpg);
       background-repeat: no-repeat;
       background-size: 100% 100%;
@@ -1067,11 +1068,13 @@ qui sopraòlksmfòlakmfdòalskfdnm
       }
 
       .carousel-container{
-            background-image: url(images/sfondi/flat-design-art-deco-background/6266619\ -\ Copia.jpg);
+            padding: 15rem 0;
+            
             flex-direction: column;
 
             align-items: center;
             gap: 2rem;
+
       }
 
       .carousel-text{
@@ -1314,6 +1317,11 @@ qui sopraòlksmfòlakmfdòalskfdnm
 
 
 @media screen and (max-width: 523px){
+
+      .carousel-container{
+            padding: 12rem 0;
+      }
+
       .card-group{
             display: flex;
             flex-direction: column;
