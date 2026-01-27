@@ -64,7 +64,7 @@ main{
 .hero {
   position: relative;
 
-  background-image: url("images/carosello/2024\ -\ Annalisa.JPG");
+  background-image: url("images/hero.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
