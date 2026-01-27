@@ -4,7 +4,7 @@
 :root{
       --green-dark:  rgb(21, 23, 20);
       --green-mid:   rgb(93, 103, 89);
-      --green-light: rgb(229, 240, 223);
+      --green-light: rgb(255, 255, 255);
 
       --text-light: rgba(245, 243, 233);
       --text-dark: rgb(23, 23, 23);
@@ -45,8 +45,6 @@ a{
 /* B O D Y */
 
 body{
-      
-
       font-family: "Newsreader", serif;
 }
 
@@ -143,9 +141,9 @@ main{
 /* galleria di immagini */
 
 .carousel-container{
-      padding: 20rem 0;
-
-      background-image: url(images/sfondi/flat-design-art-deco-background/6266619.jpg);
+      
+      padding: 4rem 0;
+      background-image: url(images/sfondi/blue-grungy-wall-background.jpg);
       background-repeat: no-repeat;
       background-size: 100% 100%;
       background-repeat: no-repeat;
@@ -161,11 +159,14 @@ main{
 }
 
 .carousel-text{
-      
-      
+
+      color: var(--text-dark);
+
       font-family: "Italianno", cursive;
       font-size: 4rem;
       text-align: center;
+
+      font-weight: 400;
    
 }
 
@@ -177,6 +178,8 @@ main{
   min-width: 100%;
 
   top: 105%;
+
+  color: var(--text-dark);
 }
 
 .carousel {
@@ -370,11 +373,17 @@ body {
 .timeline-wrapper{
       width: 100%;
 
-      background-color: var(--green-dark);
+      background-image: url(images/sfondi/blue-grungy-wall-background.jpg);
+      background-repeat: repeat;
+      background-size: contain;
+
+      color: var(--text-dark);
+      font-weight: bold;
+
+      
 }
 
 .timeline-title{
-      color: var(--text-light);
       font-family: "Italianno", cursive;
       font-size: 8rem;
       text-align: center;
@@ -417,13 +426,15 @@ body {
 
 .brano{
       position: absolute;
-      max-width: 20rem;
+      max-width: 25rem;
 
       font-size: 1.4rem;
       text-align: center;
-      color: var(--text-light);
 
       line-height: 2rem;
+
+      padding: 1rem;
+      background-color: rgba(255, 255, 255, 0.5);
 }
 
 .brano-mobile{
@@ -432,14 +443,14 @@ body {
 
 .pos-sinistra{
       top: 50%;
-      left: -110%;
+      left: -120%;
       transform: translateY(-50%);
 
 }
 
 .pos-destra{
       top: 50%;
-      right: -110%;
+      right: -120%;
       transform: translateY(-50%);
 }
 
