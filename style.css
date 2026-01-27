@@ -1329,11 +1329,8 @@ qui sopraòlksmfòlakmfdòalskfdnm
       display: block;
       padding: 1rem;
 
-      font-size: 1.1rem;
-  }
-
-  .reduced{
-      font-size: 1rem;
+      font-size: 1.2rem;
+      line-height: 1.4rem;
   }
   
 }
