@@ -1,5 +1,6 @@
-const parts = ["", "", "", ""];
-const number = parts.join("");
+const countryCode = "39";
+const parts = ["351", "90", "31", "661"];
+const number = countryCode + parts.join("");
 const text = encodeURIComponent(
   "Ciao! Confermiamo la nostra presenza al matrimonio 🎉"
 );
