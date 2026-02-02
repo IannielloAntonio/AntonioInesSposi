@@ -19,7 +19,7 @@
       padding: 0;
       box-sizing: border-box;
       font-family: "Scheherazade New", serif;
-
+      font-weight: 100;
 }
 
 body{
@@ -359,7 +359,7 @@ body {
 
       background-color: rgba(203, 147, 147, 0.85);
       color: var(--text-dark);
-      font-weight: bold;
+      
 
       
 }
@@ -672,7 +672,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
 .info-location{
       font-size: 3rem;
       font-family: "Ballet", cursive;
-      font-weight: bold;
+      
 }
 
 .icon{
@@ -715,7 +715,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
   color: #fff;
   text-decoration: none;
 
-  font-weight: 600;
+  
   font-size: 0.95rem;
   letter-spacing: 0.5px;
 
@@ -751,7 +751,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
   color: #a73737;
 
   text-decoration: none;
-  font-weight: 600;
+  
   font-size: 0.9rem;
 
   border: 1px solid rgba(167, 55, 55, 0.35);
@@ -1170,7 +1170,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
       text-align: center;
 
       font-family: "Ballet", cursive;
-      font-weight: bold;
+      
   }
 
   .italico{
@@ -1303,7 +1303,6 @@ qui sopraòlksmfòlakmfdòalskfdnm
 
       .wa-wrapper{
             justify-content: space-around;
-            outline: 2px solid red;
       }
 
       .wa-wrapper-child *{
