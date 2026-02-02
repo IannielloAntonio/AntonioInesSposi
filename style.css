@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Italianno&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Ballet+Script&family=Scheherazade+New:wght@400;500;600;700&display=swap');
 
 
 :root{
@@ -18,6 +18,8 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      font-family: "Scheherazade New", serif;
+
 }
 
 body{
@@ -45,7 +47,7 @@ a{
 /* B O D Y */
 
 body{
-      font-family: "Newsreader", serif;
+      font-family: "Newsreader", serif; /*cambia*/
 }
 
 
@@ -98,13 +100,26 @@ main{
 
 .sposi{
       position: absolute;
-      font-size: 7rem;
+      font-size: 6rem;
 
-      top: 20%;
+      top: 17%;
       letter-spacing: 0.5rem;
-      font-family: "Italianno", cursive;
-     color: var(--text-dark)
+      line-height: 7rem;
+      font-family: "Ballet", cursive;
+     color: var(--text-dark);
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
 }
+
+.sposi-word{
+      font-size: 2rem;
+        font-family: "Scheherazade New", serif;
+      line-height: 0.1rem;
+}
+
+
 
 .data-luogo{
       display: flex;
@@ -120,7 +135,7 @@ main{
 
       letter-spacing: 0.5rem;
       font-size: 4rem;
-      font-family: "Italianno", cursive;
+      font-family: "Ballet", cursive;
 }
 
 .aprile{
@@ -128,18 +143,45 @@ main{
 }
 
 .days-left{
-      padding: 1rem;
 
       position: absolute;
       top: 3rem;
       left: 3rem;
 
       font-size: 2rem;
-      font-family: "Italianno", cursive;
+      font-family: "Ballet", cursive;
       letter-spacing: 0.2rem;
-      border-radius: 1rem;
-      background-color: rgba(0, 0, 0, 0.3);
+      color: var(--text-dark);
 }
+
+.days-left *{
+      font-family: "Ballet", cursive;
+}
+
+
+
+
+.sei-invitato-wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 4rem 0;
+}
+
+.sei-invitato-h{
+      font-size: 8rem;
+      line-height: 6rem;
+      font-weight: 100;
+      font-family: "Ballet",  cursive;
+}
+
+.sei-invitato-p{
+      font-size: 2rem;
+      
+}
+
+
 
 
 /* galleria di immagini */
@@ -155,6 +197,7 @@ main{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 3rem;
 
   width: 100%;
   color: var(--text-light);
@@ -162,22 +205,33 @@ main{
 
 /* TITOLO */
 .carousel-text {
-  color: var(--text-dark);
-  font-family: "Italianno", cursive;
-  font-size: 4rem;
+  color: var(--text-light);
+  font-family: "Ballet", serif;
+  font-size: 6rem;
   text-align: center;
-  font-weight: 400;
+  font-weight: 100;
+  color: var(--text-light);
+  line-height: 4rem;
+}
+
+.carousel-text > *{
+      font-size: 8rem;
 }
 
 /* TESTO SOTTO */
 .centered {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   position: absolute;
   min-width: 100%;
-  top: 102%;
-  color: var(--text-dark);
+  top: 100%;
+
+font-family: "Scheherazade New", serif;
+  color: var(--text-light);
+  overflow: visible;
+
+
 }
 
 /* CAROUSEL */
@@ -185,7 +239,7 @@ main{
   width: 100%;
   aspect-ratio: 16 / 9;
   position: relative;
-  overflow: hidden;
+  
 }
 
 /* SLIDES */
@@ -311,9 +365,12 @@ body {
 }
 
 .timeline-title{
-      font-family: "Italianno", cursive;
+      font-family: "Ballet", cursive;
       font-size: 8rem;
       text-align: center;
+
+      color: var(--text-light);
+      font-weight: 200;
 
 }
 
@@ -361,6 +418,7 @@ body {
       text-align: center;
 
       line-height: 1.5rem !important;
+      font-weight: 100;
 
       box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.15);
 
@@ -370,6 +428,8 @@ body {
 
 .brano-mobile{
       display: none;
+      font-weight: 100;
+
 }
 
 .pos-sinistra{
@@ -422,6 +482,7 @@ time {
   margin-top: 12px;
 
   text-align: center;
+  
 }
 
 
@@ -548,7 +609,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
 .italico{
       font-size: 5rem;
       line-height: 3rem;
-      font-family: "Italianno", cursive;
+      font-family: "Ballet", cursive;
       color: var(--text-dark);
 }
 
@@ -610,7 +671,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
 
 .info-location{
       font-size: 3rem;
-      font-family: "Italianno", cursive;
+      font-family: "Ballet", cursive;
       font-weight: bold;
 }
 
@@ -737,7 +798,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
 }
 
 .informazioni-title{
-      font-family: "Italianno", cursive;
+      font-family: "Ballet", cursive;
       font-size: 5rem;
       letter-spacing: 0.4rem;
       text-align: center;
@@ -784,7 +845,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
       width: 70%;
       font-size: 6rem;
       letter-spacing: 0.4rem;
-      font-family: "Italianno", cursive;
+      font-family: "Ballet", cursive;
 }
 
 
@@ -799,7 +860,8 @@ qui sopraòlksmfòlakmfdòalskfdnm
 
 .card-title{
       font-size: clamp(2rem, 4vw, 10rem);
-      font-family: "Italianno", cursive;
+      font-family: "Ballet", cursive;
+      font-weight: 100;
 
 }
 
@@ -842,7 +904,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
 
 .card-ruolo{
       font-size: 2rem;
-      font-family: "Italianno", cursive;
+      font-family: "Ballet", cursive;
 }
 
 
@@ -886,7 +948,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
       align-items: flex-end;
       gap: 3rem;
 
-      margin-right: 15rem;
+      margin-right: 8rem;
 
       max-width: 60%;
 
@@ -906,8 +968,10 @@ qui sopraòlksmfòlakmfdòalskfdnm
 .wa-title{
 
       font-size: 7rem;
-      font-family: "Italianno", cursive;
+      font-family: "Ballet", cursive;
       line-height: 7rem;
+
+      font-weight: 100;
 
 }
 
@@ -937,6 +1001,12 @@ qui sopraòlksmfòlakmfdòalskfdnm
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+@media screen and (min-width: 1100px){
+      .carousel{
+            width: 75%;
+      }
+}
+
 @media screen and (max-width: 1100px) {
 
 
@@ -958,16 +1028,17 @@ qui sopraòlksmfòlakmfdòalskfdnm
       .aprile{
             justify-content: center;
             padding-left: 1rem;
-            font-weight: 900;
             font-size: 2rem;
       }
 
       .sposi{
-            font-size: 3.8rem;
+            top: 15%;
+            font-size: 6rem;
+            line-height: 8rem;
 
             color: var(--text-dark);
 
-            font-family: "Italianno", cursive;
+            font-family: "Ballet", cursive;
             text-align: center;
             }
 
@@ -985,21 +1056,18 @@ qui sopraòlksmfòlakmfdòalskfdnm
 
             letter-spacing: 0.5rem;
             font-size: 1.3rem;
-            font-family: "Italianno", cursive;
+            font-family: "Ballet", cursive;
       }
 
       .days-left{
-            padding: 1rem;
-
             position: absolute;
             top: 3rem;
             left: 3rem;
 
             font-size: 2rem;
-            font-family: "Italianno", cursive;
+            font-family: "Ballet", cursive;
             letter-spacing: 0.2rem;
-            border-radius: 1rem;
-            background-color: rgba(0, 0, 0, 0.3);
+      
       }
 
 
@@ -1019,17 +1087,15 @@ qui sopraòlksmfòlakmfdòalskfdnm
       }
 
       .carousel-text{
-            font-size: 3rem;
-            display: flex;
-            justify-self: center;
-            align-self: center;
+            font-size: 5rem;
+      }
+
+      .carousel-text > *{
+            font-size: 5rem;
       }
 
     
-      .centered{
-            top:104%;
-      }
-
+   
       
       .no-mobile{
             display: none;
@@ -1103,7 +1169,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
 
       text-align: center;
 
-      font-family: "Italianno", cursive;
+      font-family: "Ballet", cursive;
       font-weight: bold;
   }
 
@@ -1114,7 +1180,7 @@ qui sopraòlksmfòlakmfdòalskfdnm
   .italico-mobile{
       display: block;
       font-size: 5rem;
-      font-family: "Italianno", cursive;
+      font-family: "Ballet", cursive;
     
 
   }
@@ -1195,16 +1261,13 @@ qui sopraòlksmfòlakmfdòalskfdnm
       margin-right: 4rem;
   }
 
-  .wa-title{
-      font-size: rem;
-  }
 
   .wa-wrapper-child{
       gap: 2rem;
   }
 
   .wa-title{
-      font-size: 4rem;
+      font-size: 5rem;
       line-height: normal;
 
       text-align: right;
@@ -1227,8 +1290,34 @@ qui sopraòlksmfòlakmfdòalskfdnm
 
 }
 
+@media screen and (max-width: 761px){
+      .wa-title{
+            font-size: clamp(4rem, 10vw, 7rem);
+      }
+}
+
+@media screen and (max-width: 635px){
+      .wa-title{
+            font-size: 3rem;
+      }
+
+      .wa-wrapper{
+            justify-content: space-around;
+            outline: 2px solid red;
+      }
+
+      .wa-wrapper-child *{
+            font-size: 1rem;
+      }
+}
+
 @media screen and (max-width: 690px) {
-  .timeline ul li {
+
+.days-left{
+      font-size: 1.5rem;
+}
+
+      .timeline ul li {
     margin-left: 20px;
   }
   .timeline ul li div {
@@ -1254,7 +1343,49 @@ qui sopraòlksmfòlakmfdòalskfdnm
       font-size: 1.2rem;
       line-height: 1.4rem;
   }
+
+
+
+  .sposi{
+      font-size: 5rem;
+      line-height: 6rem;
+  }
+
+  .sposi-word{
+      font-size: 1rem;
+  }
+
+
+  .sei-invitato-wrapper{
+      padding: 1rem 0;
+  }
+
+  .sei-invitato-h{
+      font-size: 5rem;
+  }
+
+  .sei-invitato-p{
+      font-size: 1.5rem;
+  }
+
+  /* .wa-title{
+      font-size
+  } */
   
+}
+
+@media screen and (max-width: 589px){
+      .sposi{
+            font-size: 3rem;
+      }
+
+      .sei-invitato-h{
+            font-size: 3rem;
+      }
+
+      .sei-invitato-p{
+            font-size: 1rem;
+      }
 }
 
 
@@ -1275,11 +1406,52 @@ qui sopraòlksmfòlakmfdòalskfdnm
             font-size: 1.5rem;
             text-align: right;
       }     
+
+      .sposi{
+            font-size: 3rem;
+      }
+
+      .carousel{
+            gap: 1rem;
+      }
+
+      .carousel-text{
+            font-size: 2rem;
+            line-height: 1rem;
+      }
+
+      .centered{
+            font-size: 1rem;
+      }
 }
+
 
 @media screen and (max-width: 408px){
       .aprile{
             font-size: 1.3rem;
+      }
+      
+      /* .days-left,
+      .days-left *{
+            font-size: 1rem;
+      } */
+}
+
+@media screen and (max-width: 390px){
+      .sposi{
+            font-size: 2.4rem;
+      }
+}
+
+@media screen and (max-width: 369px){
+      .days-left{
+            font-size: 1.5rem;
+      }
+
+      
+
+      .sposi{
+            font-size: 2rem;
       }
 }
 
